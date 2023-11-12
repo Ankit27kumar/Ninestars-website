@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/layout.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Ninestars</title>
+</head>
+
+<body>
+    <section id="title">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand">
+                Ninestars
+            </a>
+            <button class="btn navbar-toggler tog" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="scrollToSection('aboutus')" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="scrollToSection('service')" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="scrollToSection('portfolio')" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="scrollToSection('team')" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="scrollToContact()" href="#">Contact</a>
+                    </li>
+                    <button type="button" onclick="scrollToContact()" class="get">Get Started</button>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    </div>
+    <section id="landingpage">
+        <div class="row landing">
+            <div class="col-lg-6">
+                <h2 class="heading">Better digital expreience with Ninestars</h2>
+                <p class="subheading ">We are team of talented designers making website with Bootstrap</p>
+                <div class="get1"><button type="button" onclick="scrollToContact()" class="get py-lg-2">Get Started</button></div>
+            </div>
+            <div class="col-lg-6">
+                <img class="landingimage " src="/images/hero-img.png" width="95%">
+            </div>
+        </div>
+    </section>
+    <section id="aboutus">
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="animate__animated animate__backInLeft" src="/images/about.png" width="95%">
+            </div>
+            <div class="col-lg-6 about">
+                <h2 class="mainheading">Voluptatem dignissimos provident quasi</h2>
+                <h6 class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, veniam optio,
+                    animi, nam quibusdam sed at
+                    dolore quam dolorem rem porro nulla? Consequatur et assumenda, natus veniam distinctio voluptatum
+                    quae!</h6>
+                <div class="row">
+                    <div class="col-lg-6 first">
+                        <img src="/images/google-sheets.png" width="40px" height="40px">
+                        <h5 class="secondheading">Corporis voluptates sit</h5>
+                        <h6 class="description">Consequuntur sunt aut quasi enim aliquam harum pariatur laboris nisi ut
+                            aliquip</h6>
+                    </div>
+                    <div class="col-lg-6 second">
+                        <img src="/images/block.png" width="40px" height="40px">
+                        <h5 class="secondheading">ullamco laboris nisi</h5>
+                        <h6 class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service">
+        <center>
+            <h5 class="portfolioheading">Services</h5>
+            <h2 class="portfoliosubheading">Check out the great services we offer</h2>
+            <hr style="width:10%; text-align: center; height: 2px; color:#eb5d1e">
+        </center>
+        <div class="flex-container">
+            <div class="row">
+                <div class="flex-item box">
+                    <img class="service-image" src="/images/basketball.png" width="40px" height="40px">
+                    <h5 class="lorem">Lorem Ipsum</h5>
+                    <h6 class="description2">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                        sint occaecati cupidiate</h6>
+                </div>
+                <div class="flex-item box">
+                    <img class="service-image" src="/images/google-sheets.png" width="40px" height="40px">
+                    <h5 class="lorem">Sed ut perspiciatis</h5>
+                    <h6 class="description2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla</h6>
+                </div>
+                <div class="flex-item box">
+                    <img class="service-image" src="/images/gauge.png" width="40px" height="40px">
+                    <h5 class="lorem">Magni Dolores</h5>
+                    <h6 class="description2">Excepteur sint occaecat non proident, sunt in culpa qui officia deserunt
+                        mollit anim</h6>
+                </div>
+                <div class="flex-item box">
+                    <img class="service-image" src="/images/globe-earth.png" width="40px" height="40px">
+                    <h5 class="lorem">Nemo Enim</h5>
+                    <h6 class="description2">At vero esos at accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <center>
+            <h3 class="portfolioheading">Portfolio</h3>
+            <h2 class="portfoliosubheading">Check out our beautiful portfolio</h2>
+            <hr style="width:10%; text-align: center; height: 2px; color:#eb5d1e">
+            <div class="portfoliolink">
+                <a href="#" class="plink">All</a>
+                <a href="#" class="plink">App</a>
+                <a href="#" class="plink">Card</a>
+                <a href="#" class="plink">Web</a>
+            </div>
+            <div class="container">
+            <div class="image row">
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-1.jpg" width="300px" height="250px">
+                </div>
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-2.jpg" width="300px" height="250px">
+                </div>
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-3.jpg" width="300px" height="250px">
+                </div>
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-4.jpg" width="300px" height="250px">
+                </div>
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-5.jpg" width="300px" height="250px">
+                </div>
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-6.jpg" width="300px" height="250px">
+                </div>
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-7.jpg" width="300px" height="250px">
+                </div>
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-8.jpg" width="300px" height="250px">
+                </div>
+                <div class="col-lg-3  col-md-6 portfolioimage">
+                    <img src="images/portfolio/portfolio-9.jpg" width="300px" height="250px">
+                </div>
+            </div>
+            </div>
+        </center>
+    </section>
+    <section id="team">
+        <center>
+            <h3 class="portfolioheading">Team</h3>
+            <h2 class="portfoliosubheading">Our team is always here to help</h2>
+            <hr style="width:10%; text-align: center; height: 2px; color:#eb5d1e">
+            <div class="flex-container">
+                <div class="row">
+                    <div class="flex-item1 teambox">
+                     <img  class="teambox" src="images/team/team-1.jpg">
+                     <h4>Walter White</h4>
+                     <p><i>Chief Executive officer</i></p>
+                    </div>
+                    <div class="flex-item1 teambox">
+                        <img class="teambox" src="images/team/team-2.jpg">
+                        <h4>Sarah Jhonson</h4>
+                     <p><i>Product Manager</i></p>
+                    </div>
+                    <div class="flex-item1 teambox">
+                        <img class="teambox" src="images/team/team-3.jpg">
+                        <h4>William Anderson</h4>
+                     <p><i>CTO</i></p>
+                    </div>
+                    <div class="flex-item1 teambox">
+                        <img class="teambox" src="images/team/team-4.jpg">
+                        <h4>Amanda Jepson</h4>
+                     <p><i>Accountant</i></p>
+                    </div>
+                </div>
+            </div>
+
+        </center>
+    </section>
+    <section id="contact">
+        <center>
+            <h3 class="portfolioheading">Contact us</h3>
+            <h2 class="portfoliosubheading">Contact us the get started</h2>
+            <hr style="width:10%; text-align: center; height: 2px; color:#eb5d1e">
+            <div class="row">
+                <div class="col-lg-5 faram">
+                    
+                       <table>
+                        <tr>
+                            <td> <img src="/images/location.png" width="40px" height="40px"></td>
+                            <td>
+                                <h5 class="getdetail">Location:</h5>
+                                <p class="getdetails">A108 Adam Street New York, NY535022</p></td>
+                        </tr>
+                        <tr>
+                            <td> <img src="/images/mail.png" width="40px" height="40px"></td>
+                            <td>
+                                <h5 class="getdetail">Mail:</h5>
+                                <p class="getdetails">info@example.com</p></td>
+                        </tr>
+                        <tr>
+                            <td> <img src="/images/smartphone-call.png" width="40px" height="40px"></td>
+                            <td>
+                                <h5 class="getdetail">Call:</h5>
+                                <p class="getdetails">+91 7874859374</p></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="col-lg-5 faram">
+                    <form action="#" method="post">
+                        <label for="name"> Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Amit Raj" required>
+                
+                        <label for="email"> Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="123@example.com" required>
+                
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                
+                        <button class="lower" type="submit">Send Message</button>
+
+
+                    </form>
+                </div>
+            </div>
+        </center>
+    </section>
+    <div id="newsletter">
+        <center>
+        <h5 class="portfoliosubheading">Join Our Newsletter</h5>
+        <h6 class="description">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</h6>
+        <input class="name" type="email" placeholder="enter your email id" ><button type="button" class="btn btn-warning sub">Subscribe</button>
+    </center>
+    </div>
+    <div id="footer">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <h3 class="footerheading1">Ninestars</h3>
+                <p class="address">A108 Adam Street New York, NY535022 United States</p>
+                <h5 class="address1">Phone:-</h5>
+                <h6 class="address">+155895548855</h6>
+                <h4 class="address1">Email:-</h4>
+                <h6 class="address">info@example.com</h6>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="footerheading">Useful Links</h3>
+                <ul>
+                    <li>
+                       > <a class="usefullink" href="#">Home</a>
+                    </li>
+                    <li>
+                       > <a class="usefullink"  href="#">About Us</a>
+                    </li>
+                    <li>
+                       > <a class="usefullink" href="#">Services</a>
+                    </li>
+                    <li>
+                        ><a class="usefullink" href="#">Terms of Service</a>
+                    </li>
+                    <li>
+                        ><a class="usefullink" href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="footerheading">Our Services</h3>
+                <ul>
+                    <li>
+                 ><a class="usefullink" href="#">Web Design</a>
+                    </li>
+                    <li>
+                        ><a class="usefullink"  href="#">Web Development</a>
+                    </li>
+                    <li>
+                        ><a class="usefullink" href="#">product Management</a>
+                    </li>
+                    <li>
+                        ><a class="usefullink" href="#">Marketing</a>
+                    </li>
+                    <li>
+                        ><a class="usefullink" href="#">Graphic Design</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h3 class="footerheading">Our Social Network</h3>
+                <p class="address">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <div>© Copyright <b> Ninestars</b>. All Rights Reserved</div>
+    </div>
+    <script>
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>
